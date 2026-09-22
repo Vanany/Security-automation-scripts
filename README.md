@@ -59,11 +59,4 @@ privileges.
 The project demonstrates Python-based security assessment, automation,
 finding classification, and security reporting.
 
-
-
-
-
-
-
-
 Vincent Anany

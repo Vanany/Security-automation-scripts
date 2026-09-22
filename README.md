@@ -59,4 +59,37 @@ privileges.
 The project demonstrates Python-based security assessment, automation,
 finding classification, and security reporting.
 
+## Vulnerability Report Analyzer
+
+The `vulnerability_report_analyzer.py` script analyzes sample vulnerability
+data and generates security metrics and remediation priorities.
+
+### Capabilities
+
+- Counts vulnerabilities by severity
+- Tracks open and remediated findings
+- Calculates remediation rate
+- Prioritizes open vulnerabilities using CVSS scores
+- Produces a security summary for remediation planning
+
+### Sample Results
+
+- Total vulnerabilities: 5
+- Open findings: 3
+- Remediated findings: 2
+- Remediation rate: 40%
+- Critical: 1
+- High: 2
+- Medium: 1
+- Low: 1
+
+### Remediation Priority
+
+The analyzer prioritizes unresolved vulnerabilities by CVSS score, helping
+security teams identify higher-risk findings that should be addressed first.
+
+> Note: All vulnerability IDs, assets, and findings in this project are
+> fictional and are provided for demonstration purposes only.
+
+
 Vincent Anany

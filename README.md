@@ -90,6 +90,21 @@ security teams identify higher-risk findings that should be addressed first.
 
 > Note: All vulnerability IDs, assets, and findings in this project are
 > fictional and are provided for demonstration purposes only.
+>
+> ## How to Run
 
+### Requirements
+- Python 3.9 or later
+- macOS, Linux, or Windows
+- No third-party Python packages required
+
+### Run the Vulnerability Assessment
+python3 vulnerability_assessment.py
+
+### Run the Vulnerability Report Analyzer
+python3 vulnerability_report_analyzer.py
+
+### Run the System Security Check
+python3 system_security_check.py
 
 Vincent Anany

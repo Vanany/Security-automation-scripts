@@ -36,6 +36,34 @@ The `system_security_check.py` script collects basic system information useful f
 
 All scripts in this repository are sanitized demonstration projects. They do not contain employer data, credentials, internal URLs, IP addresses, or proprietary configurations.
 
-## Author
+## Author Vincent Anany
+
+## Testing
+
+The vulnerability assessment tool was successfully tested on macOS.
+
+### Test Results
+
+The tool successfully:
+
+- Collected operating system and system architecture information
+- Identified the current user context
+- Evaluated available disk space
+- Identified the current privilege level
+- Classified findings by severity
+
+During testing, the tool identified a medium-severity disk-space warning
+and confirmed that the assessment was running with standard user
+privileges.
+
+The project demonstrates Python-based security assessment, automation,
+finding classification, and security reporting.
+
+
+
+
+
+
+
 
 Vincent Anany
